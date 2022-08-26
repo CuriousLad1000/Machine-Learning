@@ -1,0 +1,3 @@
+# Machine-Learning
+
+This repository will hold codes and projects, on different techniques used in works related to Machine Learning, NN, CNN, Traditional methods, Pipelining, CUDA Rapids, toy examples and basic codes to modern techniques etc...
