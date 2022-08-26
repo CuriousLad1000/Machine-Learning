@@ -1,0 +1,6 @@
+SMOTE
+*Know Image distribution among different classes
+*Apply SMOTE to balance classes
+
+Normalize
+*Zero mean unit variance and standard scaling

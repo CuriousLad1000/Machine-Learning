@@ -1,0 +1,19 @@
+Rapids is a GPU accelerated ML Library package that ports various ML algos from Scikitlearn library to provide accelerated computations on traditional ML algos.
+
+This code takes the 1.2 million images and run accelerated KNN classifier on it to try and classify it. Though accuracy is nothing special
+
+
+This code includes 
+
+*code to install Rapids
+*Preprocessing function
+-Remove unformatted data, that is filter the image data that has more than 3 channels or don't have a default shape of 8x8
+-flatten 8x8 image into a 64 valued vector for both training and prediction data
+-Split the data into train and validation data and change dataformat to float32 (for RAPIDS)
+
+*Program for K-NN
+*Random Classifier
+*Evaluation
+*generate predictions in the required format and export in zip file.
+
+The program has a for-loop that searches on multiple values of K to find the suitable value for such a large dataset.
